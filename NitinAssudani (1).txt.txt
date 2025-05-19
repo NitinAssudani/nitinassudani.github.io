@@ -1,0 +1,101 @@
+﻿Nitin Assudani
+(732) 513-8249 | nassudani@hotmail.com | linkedin.com/in/nitinassudani
+
+SUMMARY
+Seasoned IT professional with over 20 years of experience leading complex data migration, cloud migration, and data integration initiatives. Demonstrated success in delivering scalable, high-performance ETL solutions and managing cross-functional teams through the full SDLC. Specialized in modernizing legacy systems through end-to-end conversions involving platforms like Guidewire, Duck Creek, and OneShield. Strong expertise in data pipelines, real-time ingestion, data architecture, and quality assurance-focused on driving business alignment, operational efficiency, and long-term scalability in cloud and hybrid environments.
+
+Key Skills
+Data Migration & Conversion • ETL Architecture • Data Mapping & Profiling • P&C Insurance Systems • SQL Server & SSIS • Stakeholder Management • Agile Delivery • Guidewire • Duck Creek • Informatica • Legacy Systems Modernization • Data Warehousing • Agile Delivery • Stakeholder Management • Downstream reporting • Power Builder 6.5 • Tibco Rendezvous 8.1.0 • Business Intelligence Development Studio (BIDS) • Azure data factory • Python • Cloud Migration support • Azure Synapse Analytics
+
+EXPERIENCE
+Value Momentum, Data & Analytics Scrum Lead - Insurance - Policy conversion from Insurity to Guidewire
+Client - Country Financial
+Apr 2024 - Present
+* Led Agile delivery for policy data migration from Insurity to Guidewire.
+* Own and prioritize product backlog aligning with business goals; define Epics and User Stories for cloud migration and data reporting features.
+* Conducted daily stand-ups, sprint planning, and retrospectives for a cross-functional Scrum team of 10+.
+* Coordinated dependencies across 4 parallel workstreams, ensuring consistent data mapping and integration timelines.
+* Partnered with integration vendors to streamline cross-platform data handoffs, improving delivery cycle time by 18%.
+* Guided technical teams through architecture design and sprint execution using Rally.
+* Managed stakeholder expectations through transparent communication and sprint reviews, reducing change requests by 25%.
+* Oversaw data migration and BI integration using Informatica, Power BI enabling faster, accurate reporting for underwriting and finance
+
+Value Momentum, Technical Delivery Manager, Scrum Lead - Manage ETL operations and reporting for Insurance Data Operations
+Client - Hiscox USA
+Jun 2022 - Mar 2024
+* Directed migration of 1M+ records from on-prem to Azure using ADF, Python, and Synapse Analytics.
+* Automated manual reconciliation processes, reducing data validation time by 20% and incident recurrence by 35%.
+* Designed and optimized over 100 SSIS packages to enhance performance and error handling. 
+* Developed Tableau dashboards for operational insights, increasing stakeholder reporting efficiency by 30%.
+* Conducted root cause analyses (RCA) for high-severity issues and drove permanent resolutions.
+* Defined and championed enterprise data standards and future-state data management strategies in alignment with product vision, ensuring scalable architecture and regulatory compliance across commercial insurance platforms
+
+Value Momentum, Data Analyst, Solution Architect, Data conversion lead - Policy conversion from legacy to OneShield
+Client - Hiscox USA
+Apr 2018 - May 2022
+* Led a 12-member team for end-to-end policy conversion of P&C products (PL, GL, BOP) to OneShield platform.
+* Designed and implemented an ETL solution to convert over 700,000 policy records, enabling a sustained daily throughput of about 5,000 policy conversions with high accuracy and performance.
+* Conducted source-to-target mapping for over 150 attributes across policy, claims, and billing modules and authored technical design document.
+* Delivered a 93% first-pass data conversion accuracy, exceeding client benchmark by 10%.
+* Collaborated with stakeholders to define analytical requirements and deliver predictive models to forecast policy renewal trends.
+* Built automated validation scripts and data profiling reports, reducing QA cycle time by 25%.
+* Facilitated regular stakeholder sessions for progress updates, risk tracking, and scope alignment
+
+Syntel Inc., ETL Architect and Technical Lead - Data migration from Duck Creek to Data Mart
+Client - Penn National Insurance
+Sep 2015 - Mar 2018
+* Architected and delivered data mart solutions supporting Commercial Lines reporting using Duck Creek IDO.
+* Designed ETL workflows using SSIS to process over 1TB of transactional data into analytics-ready format.
+* Spearheaded source-to-destination data lineage design and documented 200+ transformation rules.
+* Led a team of 6 ETL developers through iterative sprints, maintaining 98% on-time delivery rate.
+* Conducted performance tuning that improved ETL load time by 28%.
+* Collaborated with QA and business analysts to define acceptance criteria and conduct data validation
+
+Syntel Inc., ETL Architect and Technical Lead - Data migration and Support from Duck Creek to Data Warehouse
+Client - Amtrust Financial Services
+Sep 2011 - Aug 2015
+* Integrated Duck Creek policy data with Guidewire billing and claims systems using SSIS and stored procedures.
+* Provided advanced reporting via SSRS and analytics with SSAS cubes, enabling business self-service insights.
+* Implemented data audit mechanisms that improved compliance reporting by 33%.
+* Mentored a team of 5 junior developers and conducted knowledge-sharing sessions on best practices.
+* Streamlined ETL codebase using modular design patterns, improving maintainability and reusability.
+Mastek Ltd, Mumbai, ETL Architect
+Feb 2011 - Aug 2011
+* Performed data analysis and cleansing across multiple domains to support accurate reporting.
+* Created reusable templates for SSIS packages, accelerating development by 20%.
+* Participated in code reviews, identifying optimization opportunities that cut batch runtime by 15%.
+* Worked with QA to define test coverage and scenarios for ETL jobs.
+
+Reliance Industries Limited, Mumbai, Design and Implement Integrated solution
+Nov 2003 - Feb 2011
+* Delivered SAP-integrated data warehouse solutions using SSIS and SQL Server, supporting retail petroleum business units.
+* Developed custom stored procedures and triggers to automate price updates across 5000+ retail outlets.
+* Managed full backup/restore strategies, improving disaster recovery readiness by 40%.
+* Administered replication and log shipping for mission-critical databases with 99.99% uptime.
+* Actively contributed to database design reviews and BI roadmap planning.
+* Managing database objects and users and maintaining Head Office application and database.
+* Planned and implemented backup and restore strategies.
+* Configuring Database Replication and Log Shipping.
+* Handling business processes for automatic price changes at sites for fuel and non-fuel products.
+* Actively engage in design discussions for all Business Intelligence and database initiatives.
+Enventia Limited, Ahmedabad, Database Design and Software Developer
+Nov 2000 - Oct 2003
+* Designed relational models in Erwin and implemented PowerBuilder applications for financial services clients.
+* Wrote complex PL/SQL scripts for data ingestion and cleanup from heterogeneous sources.
+* Conducted requirement gathering sessions and translated user stories into technical specifications.
+* Designed normalization strategies for improved query performance.
+* Maintained data dictionary and documentation for development and QA teams.
+
+EDUCATION
+Bharti Vidyapeeth's College of Engineering - Pune
+Electrical Engineering
+
+ CERTIFICATIONS & TOOLS
+Tools & Tech: SSIS, SSRS, Tableau, Power BI, Azure Synapse, Azure Data Factory, Python, T-SQL, PL/SQL, JIRA, Confluence, BIDS, Erwin, SAP, SQL Server, Oracle
+Products and Line of Business - Guidewire, Duck Creek, OneShield - Commercial Auto, Personal Auto, Business Owners, Workers Compensation, Inland Marine General Liability, Errors and Omission and Property.
+Certifications: 
+* MCTS 70-448 SQL 2008 Business Intelligence Development and Maintenance
+* Oracle 8i Certified Database Administrator 
+* Tibco Training on EAI, RV, BW, Adapters and Hawk
+
+

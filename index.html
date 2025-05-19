@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitin Assudani | Data Engineer & Migration Specialist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">NA</div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Nitin Assudani</h1>
+                    <h2>Data Migration & Pipeline Architect</h2>
+                    <p>Transforming insurance data systems through expert migration, architecture, and analytics</p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn primary">Explore My Work</a>
+                        <a href="#contact" class="btn secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-container">
+                        <img src="profilephoto.png" alt="Nitin Assudani" class="profile-photo">
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+                <p>Scroll to explore</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="tagline">Seasoned IT professional with 20+ years of experience transforming data landscapes in the insurance industry.</p>
+                    <p>I specialize in modernizing legacy insurance systems through end-to-end data migrations and building robust data pipelines. My expertise spans platforms like Guidewire, Duck Creek, and OneShield, with a focus on creating scalable ETL solutions that drive business alignment and operational efficiency.</p>
+                    <p>Throughout my career, I've led cross-functional teams to successfully deliver complex data integration initiatives across P&C insurance domains, prioritizing data quality, performance, and meaningful business insights.</p>
+                </div>
+                <div class="data-philosophy">
+                    <h3>My Data Philosophy</h3>
+                    <div class="philosophy-interactive">
+                        <div class="philosophy-node" data-id="accuracy">
+                            <div class="node-icon"><i class="fas fa-check-circle"></i></div>
+                            <p>Data Accuracy</p>
+                        </div>
+                        <div class="philosophy-node" data-id="scalability">
+                            <div class="node-icon"><i class="fas fa-expand-arrows-alt"></i></div>
+                            <p>Scalable Architecture</p>
+                        </div>
+                        <div class="philosophy-node" data-id="insights">
+                            <div class="node-icon"><i class="fas fa-lightbulb"></i></div>
+                            <p>Actionable Insights</p>
+                        </div>
+                        <div class="philosophy-node" data-id="efficiency">
+                            <div class="node-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            <p>Operational Efficiency</p>
+                        </div>
+                        <div id="philosophy-details" class="philosophy-details">
+                            <p>Click on any principle to learn more</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Journey</h2>
+            <div class="experience-timeline">
+                <div class="timeline-controls">
+                    <button id="prev-experience" class="timeline-control"><i class="fas fa-chevron-left"></i></button>
+                    <div class="timeline-progress">
+                        <div class="timeline-bar">
+                            <div class="timeline-indicator"></div>
+                        </div>
+                    </div>
+                    <button id="next-experience" class="timeline-control"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="experience-carousel">
+                    <!-- Experience cards will be dynamically loaded here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="migration">Data Migration</button>
+                <button class="filter-btn" data-filter="etl">ETL Pipelines</button>
+                <button class="filter-btn" data-filter="analytics">Analytics</button>
+                <button class="filter-btn" data-filter="cloud">Cloud Solutions</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project cards will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skills-card">
+                    <h3 class="skills-card-title">Data Tools</h3>
+                    <div class="skills-tags">
+                        <span class="skill-pill">SSIS</span>
+                        <span class="skill-pill">SSRS</span>
+                        <span class="skill-pill">SSAS</span>
+                        <span class="skill-pill">Tableau</span>
+                        <span class="skill-pill">Power BI</span>
+                        <span class="skill-pill">Azure Data Factory</span>
+                        <span class="skill-pill">Azure Synapse</span>
+                        <span class="skill-pill">Informatica</span>
+                        <span class="skill-pill">Talend</span>
+                    </div>
+                </div>
+
+                <div class="skills-card">
+                    <h3 class="skills-card-title">Databases & Languages</h3>
+                    <div class="skills-tags">
+                        <span class="skill-pill">SQL Server</span>
+                        <span class="skill-pill">Oracle</span>
+                        <span class="skill-pill">T-SQL</span>
+                        <span class="skill-pill">PL/SQL</span>
+                        <span class="skill-pill">Python</span>
+                        <span class="skill-pill">Data Modeling</span>
+                        <span class="skill-pill">Data Warehousing</span>
+                    </div>
+                </div>
+
+                <div class="skills-card">
+                    <h3 class="skills-card-title">Insurance Platforms</h3>
+                    <div class="skills-tags">
+                        <span class="skill-pill">Guidewire</span>
+                        <span class="skill-pill">Duck Creek</span>
+                        <span class="skill-pill">OneShield</span>
+                        <span class="skill-pill">Insurity</span>
+                        <span class="skill-pill">P&C Insurance</span>
+                    </div>
+                </div>
+
+                <div class="skills-card">
+                    <h3 class="skills-card-title">Migration & Integration</h3>
+                    <div class="skills-tags">
+                        <span class="skill-pill">ETL Pipelines</span>
+                        <span class="skill-pill">Data Migration</span>
+                        <span class="skill-pill">System Integration</span>
+                        <span class="skill-pill">Change Data Capture</span>
+                        <span class="skill-pill">Data Quality</span>
+                        <span class="skill-pill">Cloud Migration</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="data-migration-showcase" class="data-migration-showcase">
+        <div class="container">
+            <h2 class="section-title">Data Migration Expertise</h2>
+            <div class="showcase-content">
+                <div class="showcase-interactive">
+                    <div class="migration-flow-diagram">
+                        <!-- Interactive migration flow visualization will be rendered here -->
+                    </div>
+                    <div class="migration-controls">
+                        <button class="step-btn" data-step="extract">Extract</button>
+                        <button class="step-btn" data-step="transform">Transform</button>
+                        <button class="step-btn" data-step="load">Load</button>
+                        <button class="step-btn" data-step="validate">Validate</button>
+                    </div>
+                </div>
+                <div class="migration-details">
+                    <h3>Migration Process Expertise</h3>
+                    <div id="migration-step-details">
+                        <p>Select a step in the migration process to see details</p>
+                    </div>
+                    <div class="migration-metrics">
+                        <div class="metric">
+                            <h4>700,000+</h4>
+                            <p>Policy Records Migrated</p>
+                        </div>
+                        <div class="metric">
+                            <h4>93%</h4>
+                            <p>First-pass Accuracy</p>
+                        </div>
+                        <div class="metric">
+                            <h4>25%</h4>
+                            <p>QA Cycle Reduction</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education & Certifications</h2>
+            <div class="education-content">
+                <div class="education-details">
+                    <h3>Bharti Vidyapeeth's College of Engineering - Pune</h3>
+                    <p>Electrical Engineering</p>
+                </div>
+                <div class="certifications">
+                    <h3>Certifications</h3>
+                    <ul class="cert-list">
+                        <li>MCTS 70-448 SQL 2008 Business Intelligence Development and Maintenance</li>
+                        <li>Oracle 8i Certified Database Administrator</li>
+                        <li>Tibco Training on EAI, RV, BW, Adapters and Hawk</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>(732) 513-8249</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>nassudani@hotmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <p><a href="https://linkedin.com/in/nitinassudani" target="_blank">linkedin.com/in/nitinassudani</a></p>
+                    </div>
+                    <div class="resume-download">
+                        <a href="NitinAssudani.pdf" class="btn secondary" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-file-alt"></i> View Resume
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Nitin Assudani. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
